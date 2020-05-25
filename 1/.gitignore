@@ -1,5 +1,6 @@
 node_modules
-aa-repetition
+package-lock.json
+
 
 # Logs
 logs
@@ -119,4 +120,4 @@ dist
 .pnp.*
 
 
-package-lock.json
+
