@@ -20,6 +20,7 @@ app.use(morgan("dev"));
 app.use(localsMiddlewares);
 
 app.set("view engine", "pug");
+app.use("/uploads", express.static("uploads"));
 app.use(routes.home, globalRouter);
 app.use(routes.users, userRouter);
 app.use(routes.videos, videoRouter);
